@@ -8,6 +8,7 @@ body {
 }
 
 .profilePic {
+    transform: translateX(-15px);
     height: 317px;
 }
 
@@ -119,16 +120,3 @@ p {
     height: 25px;
 }
 
-@media only screen and (min-width: 641px) {
-    .profilePic{
-    transform: translateX(-15px);
-    }
-}
-
-@media only screen and (max-width: 640px) {
-    #footer{
-        width: 317px;
-        margin-left:50%;
-        transform: translateX(-50%);
-    }
-  }
