@@ -6,7 +6,7 @@ import LinkedIn from "./images/linkedin.png";
 function Header() {
     return (
         <div>
-            <img className="profilePic" src={Profile} alt="Profile Picture" />
+            <img className="profilePic" src={Profile} alt="Profile" />
             <h2>Meetpal Singh</h2>
             <div className="fDev">Frontend Developer</div>
             <div className="webName">meetpalsingh.website</div>
